@@ -2,6 +2,8 @@
 openwebui函数，在交给模型处理前对传入的图片进行文字识别
 
 # 使用方法
+复制[imageocr.py](https://github.com/xinhai-ai/imageocr/blob/main/imageocr.py)的内容
+
 前往**管理员设置**界面
 
 ![image](https://github.com/user-attachments/assets/03a9a144-a6b2-4897-a834-8c2d966468cd)
