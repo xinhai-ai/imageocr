@@ -18,7 +18,7 @@ class Filter:
             default="Please only recognize and extract the text or data from this image without interpreting, analyzing, or understanding the content. Do not output any additional information. Simply return the recognized text or data content.",
             description="进行OCR识别的提示词",
         )
-        model_name: str = Field(default="gpt-4o", description="用于OCR图像的模型名称。")
+        model_name: str = Field(default="gemini-1.5-flash-latest", description="用于OCR图像的模型名称。推荐使用gemini系列")
 
     def __init__(self):
         self.valves = self.Valves()
