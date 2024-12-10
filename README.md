@@ -30,4 +30,4 @@ openwebui函数，在交给模型处理前对传入的图片进行文字识别
 
 
 # 特别感谢
-https://linux.do/t/topic/259708 修改自此函数
+https://linux.do/t/topic/259708 部分内容来自此函数
