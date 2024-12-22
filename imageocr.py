@@ -51,6 +51,7 @@ class Filter:
                 {
                     "role": "user",
                     "content": [
+                        {"type": "text", "text": self.valves.ocr_prompt},
                         {
                             "type": "image_url",
                             "image_url": {"url": image, "detail": "high"},
